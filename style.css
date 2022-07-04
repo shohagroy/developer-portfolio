@@ -114,6 +114,9 @@ p{
 .experi_section{
     height: 100vh;
     width: 100%;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 .experi_latter{
@@ -154,4 +157,8 @@ p{
 
 .experi_main_contain .experi_right{
     border-left: 10px solid blue;
+}
+
+footer{
+    text-align: center;
 }
