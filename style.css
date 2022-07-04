@@ -90,6 +90,7 @@ p{
 .dream_left img{
     width: 90%;
     margin-top: 30px;
+    margin-left: 100px;
 }
 
 .dream_right{
@@ -97,12 +98,60 @@ p{
 }
 
 .dream_right .dream_continer{
-    width: 100%;
+    width: 80%;
     margin-top: 15%;
-    margin-left: 5%;
-    margin-right: 5%
+    margin-left: 20%;
 
 }
 .dream_continer p{
     margin-right: 100px;
+}
+
+/* dream section end */
+
+/* experiences section start */
+
+.experi_section{
+    height: 100vh;
+    width: 100%;
+}
+
+.experi_latter{
+    padding: 20px 0;
+
+
+}
+
+.experi_main_contain{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.contain{
+    margin: 0 50px;
+    box-shadow:  5px 5px 30px rgb(108, 108, 108);
+    padding: 40px;
+    width: 50%;
+    border-radius: 10px;
+
+}
+
+
+.contain .full_stack, .baby_web{
+    font-size: 45px;
+}
+
+.contain h3{
+    color: orange;
+}
+
+.experi_main_contain .experi_left{
+    border-left: 10px solid red;
+
+}
+
+.experi_main_contain .experi_right{
+    border-left: 10px solid blue;
 }
